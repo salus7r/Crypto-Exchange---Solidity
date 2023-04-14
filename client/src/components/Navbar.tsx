@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
-const Navbar: React.FC<Props> = (props) => {
-    return (
-        <h1>Navbar</h1>
-    )
-}
+const NavBar: React.FC<Props> = (props) => {
+	return <h1>NavBar</h1>;
+};
 
-export default Navbar;
+export default NavBar;

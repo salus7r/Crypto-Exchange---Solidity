@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const Loader: React.FC<Props> = (props) => {
-    return (
-        <h1>Loader</h1>
-    )
-}
+	return <h1>Loader</h1>;
+};
 
 export default Loader;
